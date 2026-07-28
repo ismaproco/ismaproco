@@ -54,15 +54,3 @@ typed routing, unit tests, browser tests, and a complete local verification
 workflow.
 
 `React` · `TypeScript` · `TanStack Router/Query` · `Dexie` · `Playwright`
-
-## Current direction
-
-These public projects now show API design, durable jobs, revisioned data,
-idempotency, cross-runtime implementation, and operational testing. They do not
-yet include a representative public AWS/Terraform system; that remains the most
-important portfolio gap relative to my production experience.
-
-## Elsewhere
-
-- [Website](https://isma.club/)
-- [GitHub repositories](https://github.com/ismaproco?tab=repositories)

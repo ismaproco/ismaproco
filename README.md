@@ -25,9 +25,12 @@ automation and observability to change software safely.
 A revisioned content and feature-management API built around external IDs,
 idempotent mutations, soft deletion, and an incremental change feed. The same
 PostgreSQL-backed contract has TypeScript, Go, and FastAPI implementations, plus
-load-testing tooling and CI.
+load-testing tooling and CI. Its TypeScript AI gateway presents one authenticated
+API across Gemini, OpenAI, OpenRouter, Ollama, and LocalAI, with text and image
+inputs, separate system instructions, provider routing, and normalized reasoning
+controls.
 
-`TypeScript` · `FastAPI` · `Go` · `PostgreSQL` · `Prisma` · `Docker`
+`TypeScript` · `FastAPI` · `Go` · `PostgreSQL` · `Prisma` · `Docker` · `Multi-provider AI`
 
 ### [BoomBoom](https://github.com/ismaproco/boomboom)
 
@@ -39,12 +42,14 @@ test suite covers storage, queues, services, API routes, and portfolio logic.
 
 ### [Escriba](https://github.com/ismaproco/escriba)
 
-A writing assistant whose backend owns provider credentials, request
-concurrency, retries, durable benchmark jobs, and analysis history. It supports
-SQLite for local operation and PostgreSQL for shared deployments, with explicit
-migration and recovery paths.
+A writing assistant with an AI orchestration pipeline for context-aware
+batching, prompt-budget selection, configurable detection and rewriting, and
+piecewise score calibration. Its backend protects provider credentials, bounds
+concurrency, retries transient failures, records full analysis evidence, and
+checkpoints long-running benchmark jobs for recovery. It supports SQLite locally
+and PostgreSQL for shared deployments.
 
-`React` · `TypeScript` · `Express` · `SQLite` · `PostgreSQL` · `Docker`
+`React` · `TypeScript` · `Express` · `SQLite` · `PostgreSQL` · `Docker` · `LLM orchestration`
 
 ### [Casa Mapa](https://github.com/ismaproco/casa-m)
 

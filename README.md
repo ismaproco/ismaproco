@@ -20,6 +20,32 @@ automation and observability to change software safely.
 
 ## Selected work
 
+### [Coersu Store](https://github.com/ismaproco/coersu-store)
+
+A revisioned content and feature-management API built around external IDs,
+idempotent mutations, soft deletion, and an incremental change feed. The same
+PostgreSQL-backed contract has TypeScript, Go, and FastAPI implementations, plus
+load-testing tooling and CI.
+
+`TypeScript` · `FastAPI` · `Go` · `PostgreSQL` · `Prisma` · `Docker`
+
+### [BoomBoom](https://github.com/ismaproco/boomboom)
+
+A full-stack markets dashboard with persisted background jobs, bounded data
+ingestion, explicit operational controls, and an OpenAPI-generated client. Its
+test suite covers storage, queues, services, API routes, and portfolio logic.
+
+`React` · `TypeScript` · `Bun` · `Elysia` · `SQLite` · `OpenAPI` · `Playwright`
+
+### [Escriba](https://github.com/ismaproco/escriba)
+
+A writing assistant whose backend owns provider credentials, request
+concurrency, retries, durable benchmark jobs, and analysis history. It supports
+SQLite for local operation and PostgreSQL for shared deployments, with explicit
+migration and recovery paths.
+
+`React` · `TypeScript` · `Express` · `SQLite` · `PostgreSQL` · `Docker`
+
 ### [Casa Mapa](https://github.com/ismaproco/casa-m)
 
 A local-first, bilingual explorer for Bogotá apartment listings. It separates a
@@ -29,28 +55,12 @@ workflow.
 
 `React` · `TypeScript` · `TanStack Router/Query` · `Dexie` · `Playwright`
 
-### [Chess Review](https://github.com/ismaproco/chess-review)
-
-A client-side PGN analysis tool that integrates Stockfish through Web Workers.
-The engine protocol, sequential game analysis, FEN-based caching, navigation
-state, and presentation are kept in distinct modules.
-
-`React` · `TypeScript` · `Web Workers` · `Stockfish` · `chess.js`
-
-### [Hono API Template](https://github.com/ismaproco/hono-template)
-
-An experimental TypeScript API composition using Hono, PostgreSQL, Prisma, JWT,
-MinIO, and Docker Compose. Its README documents both the architectural choices
-and the hardening work still required before production use.
-
-`TypeScript` · `Hono` · `PostgreSQL` · `Prisma` · `Docker`
-
 ## Current direction
 
-I am preparing a public backend case study that brings together the parts of my
-professional work that smaller frontend repositories cannot demonstrate:
-domain-driven FastAPI services, event-driven processing, AWS infrastructure
-defined with Terraform, operational telemetry, and failure-oriented testing.
+These public projects now show API design, durable jobs, revisioned data,
+idempotency, cross-runtime implementation, and operational testing. They do not
+yet include a representative public AWS/Terraform system; that remains the most
+important portfolio gap relative to my production experience.
 
 ## Elsewhere
 
